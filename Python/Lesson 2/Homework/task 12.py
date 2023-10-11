@@ -25,5 +25,3 @@ for city, temp in citis.items():
 result = {k: v for k, v in sorted(result.items(), key = lambda item: item[1], reverse = True)}
 
 print(result)
-
-# Madrid:+25, Moscow:+5, Anapa:+20, Tel-Aviv:+29, Cairo:+33, Reykjavik:-6, Novosibirsk:+2

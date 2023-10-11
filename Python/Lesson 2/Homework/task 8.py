@@ -18,7 +18,3 @@ if len(result) != 0:
 		print(i)
 else:
 	print(f'{artist} not found')
-
-
-
-
